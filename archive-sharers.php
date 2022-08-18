@@ -8,9 +8,15 @@
         <div class="wrapper">
             <h1 class="section-head"><?php wp_title("", true); ?></h1>
             <div class="box">
+                <div class="box__half box--pb box__half--df">
+                    <div class="sharer__link">
+                        <h2 class="sharer__title">ОАО «Гродненская обувная фабрика  «Неман» </h2>
+                        <p class="sharer__content">230024, г.Гродно, ул.Советских Пограничников, 95 <br/> р/с BY78BLBB30120500055230001001 в Дирекции ОАО «Белинвестбанк» по Гродненской области, <br/> БИК BLBBBY2X, УНП 500055230, ОКПО 05542817</p>
+                    </div>
+                </div>
                 <?php  $args = array (
                                 'post_type' => 'sharers',
-                                'numberposts' => 2,
+                                'numberposts' => 1,
                                 'order' => 'DESC',
                                 'orderby'   => 'meta_value',
                                 'suppress_filters' => true,
@@ -36,7 +42,7 @@
                 <div class="box__half">
                     <?php  $args = array (
                                     'post_type' => 'sharers',
-                                    'offset' => 2,
+                                    'offset' => 1,
                                     'order' => 'DESC',
                                     'orderby'   => 'meta_value',
                                     'suppress_filters' => true,

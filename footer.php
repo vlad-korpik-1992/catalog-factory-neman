@@ -73,7 +73,7 @@
                 <a class="footer__box__link" href="#">О размерах обуви</a>
                 <a class="footer__box__link" href="<?php echo get_page_link(209)?>">Ремонт обуви</a>
                 <a class="footer__box__link" href="<?php echo get_page_link(177)?>">Электронные обращения</a>
-                <a class="footer__box__link" href="<?php echo get_page_link(8)?>">Где купить</a>
+                <a class="footer__box__link" href="<?php echo get_page_link(8)?>">Наши магазины</a>
                 <a class="footer__box__link" href="<?php echo get_page_link(3)?>">Политики конфиденциальности</a>
             </div>
             <div class="footer__box__items footer__box__items--center scrollto">

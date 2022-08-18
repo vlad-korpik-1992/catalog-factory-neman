@@ -11,7 +11,7 @@
                 <div class="repair__items"></div>
                 <div class="repair__items repair__content">
                     <?the_content();?>
-                    <p class="repair__content__small"><? the_field('content_repair'); ?></p>
+                    <div class="repair__content__small"><? the_field('content_repair'); ?></div>
                 </div>
             </div>
             <div class="repair__box">

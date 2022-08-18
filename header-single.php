@@ -24,7 +24,7 @@
                             <a class="menu__list__link menu__list__link--fs" href="<?php echo get_page_link(271)?>">Каталог</a>
                         </li>
                         <li class="menu__list__items">
-                            <a class="menu__list__link menu__list__link--fs" href="<?php echo get_page_link(8)?>">Где купить</a>
+                            <a class="menu__list__link menu__list__link--fs" href="<?php echo get_page_link(8)?>">Наши магазины</a>
                         </li>
                         <li class="menu__list__items">
                             <a class="menu__list__link menu__list__link--fs" href="<?php echo get_page_link(191)?>">Акции</a>

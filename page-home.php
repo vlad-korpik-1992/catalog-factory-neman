@@ -35,54 +35,29 @@
     <section class="fullpage">
         <main class="fullpage__box">
             <div class="fullpage__box__items">
-                <div class="fullpage__box__num">1530</div>
+                <div class="fullpage__box__num">1945</div>
                 <div class="fullpage__box__border"></div>
-                <p class="fullpage__box__title">Анализ рыночных цен, на первый взгляд, трансформирует потребите</p>
+                <p class="fullpage__box__title">год основания</p>
             </div>
             <div class="fullpage__box__items">
-                <div class="fullpage__box__num">130</div>
+                <div class="fullpage__box__num">75</div>
                 <div class="fullpage__box__border"></div>
-                <p class="fullpage__box__title">Анализ рыночных цен, на первый взгляд, трансформирует потребите</p>
+                <p class="fullpage__box__title">лет опыта</p>
             </div>
             <div class="fullpage__box__items">
-                <div class="fullpage__box__num">1039</div>
+                <div class="fullpage__box__num">300+</div>
                 <div class="fullpage__box__border"></div>
-                <p class="fullpage__box__title">Анализ рыночных цен, на первый взгляд, трансформирует потребите</p>
+                <p class="fullpage__box__title">взрослых моделей</p>
+            </div>
+			<div class="fullpage__box__items">
+                <div class="fullpage__box__num">95+</div>
+                <div class="fullpage__box__border"></div>
+                <p class="fullpage__box__title">сотрудников</p>
             </div>
             <div class="fullpage__box__items">
-                <div class="fullpage__box__num">200</div>
+                <div class="fullpage__box__num">200+</div>
                 <div class="fullpage__box__border"></div>
-                <p class="fullpage__box__title">Анализ рыночных цен, на первый взгляд, трансформирует потребите</p>
-            </div>
-            <div class="fullpage__box__items">
-                <div class="fullpage__box__num">1000</div>
-                <div class="fullpage__box__border"></div>
-                <p class="fullpage__box__title">Анализ рыночных цен, на первый взгляд, трансформирует потребите</p>
-            </div>
-            <div class="fullpage__box__items">
-                <div class="fullpage__box__num">8643</div>
-                <div class="fullpage__box__border"></div>
-                <p class="fullpage__box__title">Анализ рыночных цен, на первый взгляд, трансформирует потребите</p>
-            </div>
-            <div class="fullpage__box__items">
-                <div class="fullpage__box__num">4562</div>
-                <div class="fullpage__box__border"></div>
-                <p class="fullpage__box__title">Анализ рыночных цен, на первый взгляд, трансформирует потребите</p>
-            </div>
-            <div class="fullpage__box__items">
-                <div class="fullpage__box__num">7895</div>
-                <div class="fullpage__box__border"></div>
-                <p class="fullpage__box__title">Анализ рыночных цен, на первый взгляд, трансформирует потребите</p>
-            </div>
-            <div class="fullpage__box__items">
-                <div class="fullpage__box__num">13</div>
-                <div class="fullpage__box__border"></div>
-                <p class="fullpage__box__title">Анализ рыночных цен, на первый взгляд, трансформирует потребите</p>
-            </div>
-            <div class="fullpage__box__items">
-                <div class="fullpage__box__num">78</div>
-                <div class="fullpage__box__border"></div>
-                <p class="fullpage__box__title">Анализ рыночных цен, на первый взгляд, трансформирует потребите</p>
+                <p class="fullpage__box__title">детских моделей</p>
             </div>
         </main>
     </section>
@@ -156,11 +131,9 @@
                                         <div class="addresses__box__items__col">
                                             <p class="addresse__city"><? the_sub_field('city_ourstores_home'); ?></p>
                                             <p><? the_sub_field('address_ourstores_home'); ?></p>
-                                            <?php $phone = str_replace([' ', '(', ')', '-'], '', get_sub_field('phone_1_ourstores_home'));?>
-                                            <a class="addresses__link" href="tel:<?php echo $phone;?>"><? the_sub_field('phone_1_ourstores_home'); ?></a>
-                                            <?php $phone = str_replace([' ', '(', ')', '-'], '', get_sub_field('phone_2_ourstores_home'));?>
-                                            <a class="addresses__link" href="tel:<?php echo $phone;?>"><? the_sub_field('phone_2_ourstores_home'); ?></a>
-                                            <a class="addresses__mail" href="mailto:<? the_sub_field('email_ourstores_home'); ?>"><? the_sub_field('email_ourstores_home'); ?></a>
+                                            <p class="addresses__link"><? the_sub_field('phone_1_ourstores_home'); ?></p>
+                                            <p class="addresses__link"><? the_sub_field('phone_2_ourstores_home'); ?></p>
+                                            <p class="addresses__mail"><? the_sub_field('email_ourstores_home'); ?></p>
                                         </div>
                                     <?endif; $item++;
                                 endwhile;?>
