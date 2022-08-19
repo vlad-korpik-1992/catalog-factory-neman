@@ -32,7 +32,7 @@
             </div>
         </div>
     </section>
-    <section class="fullpage">
+    <section class="fullpage" id="fullpage">
         <main class="fullpage__box">
             <div class="fullpage__box__items">
                 <div class="fullpage__box__num">1945</div>

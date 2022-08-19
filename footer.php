@@ -1,7 +1,9 @@
 <footer class="footer">
     <div class="wrapper">
         <div class="footer__top">
-            <img class="footer__logo" src="<?php bloginfo('template_url'); ?>/assets/img/logo-footer.png" alt="">
+            <a href="<?php echo site_url(); ?>">
+                <img class="footer__logo" src="<?php bloginfo('template_url'); ?>/assets/img/logo-footer.png" alt="">
+            </a>
             <div class="footer__top__items">
                 <div class="footer__lang">
                     <a href="#" class="header__box__items__link">EN</a>
