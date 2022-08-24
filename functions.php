@@ -363,22 +363,23 @@ function filter_function(){
 	$max_price = isset( $_POST['price_max'] ) ? intval( $_POST['price_max'] ) : 0;
 	$response = '';
 	$slug = $_POST['productCat'];
-	$sizes_product = '';
+	/*$sizes_product = '';*/
 	$sizes_product = implode(" ", $_POST['size']);
 	$color_product = implode(" ", $_POST['color']);
 	set_query_var( 'min_price', $min_price );
 	set_query_var( 'max_price', $max_price );
+	set_query_var( 'sizes_product', $sizes_product );
 	set_query_var( 'color_product', $color_product );
 	$args = array(
         'post_type' => 'product',
         'post_status'   => 'publish',
-		'meta_query' => array(
+		/*'meta_query' => array(
 			array(
 				'key' => 'shoe_sizes_product',
 				'value' => $sizes_product,
 				'compare' => 'LIKE',
 			)
-		),
+		),*/
         'tax_query' => array(
     		array(
         			'taxonomy' => 'product_cat',
